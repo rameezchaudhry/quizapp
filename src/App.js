@@ -1,14 +1,15 @@
 import './App.css';
-import Quiz from "./component/quiz"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react"
 import {Provider} from "react-redux"
 import store from "./store"
+import Quiz from './component/quiz';
 function App() {
   return (
     <div>
       <Provider store={store}>
-   <Quiz />
+        <Quiz />
+        
       </Provider>
     </div>
   );
